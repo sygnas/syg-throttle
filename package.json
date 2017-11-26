@@ -1,0 +1,17 @@
+{
+  "name": "syg-throttle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [
+    "throttle"
+  ],
+  "author": "Hiroshi Fukuda <info.sygnas@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+  },
+  "dependencies": {}
+}
