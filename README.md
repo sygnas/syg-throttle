@@ -13,13 +13,13 @@ npm install syg-throttle
 ```
 
 ```JavaScript
-import syg_throttle from 'syg-throttle';
+import throttle from 'syg-throttle';
 
 function foo() {
     console.log("scroll");
 }
 
-window.addEventListener('scroll', syg_throttle(200, foo));
+window.addEventListener('scroll', throttle(200, foo));
 ```
 
 ## License
