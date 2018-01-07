@@ -12,4 +12,4 @@ var index = function (timing, func, scope) {
 };
 
 export default index;
-//# sourceMappingURL=syg-throttle.es.js.map
+//# sourceMappingURL=throttle.es.js.map

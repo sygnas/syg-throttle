@@ -18,7 +18,7 @@ const paths = {
 let fileName,
     Configure;
 
-fileName = process.env.NODE_ENV !== 'production' ? 'syg-throttle' : 'syg-throttle.min';
+fileName = process.env.NODE_ENV !== 'production' ? 'throttle' : 'throttle.min';
 
 Configure = {
     entry: `${paths.source.root}index.js`,

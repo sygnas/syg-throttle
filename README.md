@@ -9,12 +9,12 @@ windowの scrollイベントや、 resizeイベントの実行タイミングを
 ## Usage
 ### Install
 ```sh
-npm install syg-throttle
+npm install --save @sygnas/throttle
 ```
 
 ### Script
 ```JavaScript
-import throttle from 'syg-throttle';
+import throttle from '@sygnas/throttle';
 
 function foo() {
     console.log("scroll");
