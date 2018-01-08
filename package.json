@@ -1,9 +1,10 @@
 {
   "name": "@sygnas/throttle",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "",
   "main": "dist/throttle.js",
   "module": "dist/throttle.es.js",
+  "moduleName": "syg-throttle",
   "private": false,
   "repository": {
     "type": "git",
