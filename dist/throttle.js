@@ -4,7 +4,7 @@
 	(global['syg-throttle'] = factory());
 }(this, (function () { 'use strict';
 
-var index = function (timing, func, scope) {
+function index (timing, func, scope) {
     var id = null;
 
     return function () {
@@ -15,7 +15,7 @@ var index = function (timing, func, scope) {
             id = null;
         }, timing);
     };
-};
+}
 
 return index;
 

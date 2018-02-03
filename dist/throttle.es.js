@@ -1,4 +1,4 @@
-var index = function (timing, func, scope) {
+function index (timing, func, scope) {
     var id = null;
 
     return function () {
@@ -9,7 +9,6 @@ var index = function (timing, func, scope) {
             id = null;
         }, timing);
     };
-};
+}
 
 export default index;
-//# sourceMappingURL=throttle.es.js.map
